@@ -35,7 +35,7 @@ class Wget < Formula
                           "--sysconfdir=#{etc}",
                           "--with-ssl=openssl",
                           "--with-libssl-prefix=#{Formula["openssl@1.1"].opt_prefix}",
-                          "--disable-debug",
+                          "--enable-debug",
                           "--disable-pcre",
                           "--disable-pcre2",
                           "--without-libpsl",
